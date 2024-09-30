@@ -9,10 +9,10 @@ Before running the script, ensure you have the following installed:
 - Required libraries, which can be installed by running:
 
 The following Python libraries are required:
-  - transformers
-  - tqdm
-  - nltk
-  - scikit-learn
+  - `transformers`
+  - `tqdm`
+  - `nltk`
+  - `scikit-learn`
 ## Project Structure
 - `N_gram_show.py`: The main script that extracts Java code snippets, preprocesses them, and builds an N-gram model. It also displays the most common N-grams and their smoothed probabilities.
 - `only_predict.py`: This script is focused on generating predictions from an N-gram model given an input prefix.
