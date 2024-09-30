@@ -1,6 +1,6 @@
 # N-Gram Model Training and Evaluation
 
-This project implements an N-Gram language model to predict the next token in a sequence of Java code snippets. It includes data cleaning, tokenization, and model training using N-grams, along with evaluation metrics such as accuracy and perplexity.
+This project implements an N-Gram language model to predict the next token in a sequence of Java code snippets. The process involves data cleaning, tokenization using Hugging Face’s BART tokenizer, and training the model using N-grams with various values of n. The project not only focuses on model training but also includes model evaluation using metrics such as accuracy and perplexity. Additionally, multiple N-gram models (1-gram, 2-gram, 3-gram) are compared to identify the best-performing model. The results are validated through accuracy and perplexity calculations, providing a comprehensive analysis of the model's predictive capabilities.
 
 ## Prerequisites
 Before running the script, ensure you have the following installed:
